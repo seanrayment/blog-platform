@@ -1,47 +1,59 @@
+//An array that stores a list of strings, the first four of which
+//will be called when the prev button is clicked
 var prevBlogs = [];
+//An array that that simply holds at most four strings, which are the 
+//text of the current four articles showing on the page
 var currentBlogs = [];
-var blogs = [];
+//An array that holds the list of strings, the first four of which are
+//shown when the next button is clicked
+var nextBlogs = [];
 
+//Adds all four articles represented in the currentBlog array to the page
 function writeValues() {
-    for (var i=0;i<4;i++) {
-        $(".content").append("<div class='article'>" + currentBlogs[0] + "</div>");
-        currentBlogs.shift();
+    $(".content").empty();
+    for (var i=0;i<currentBlogs.length;i++) {
+        $(".content").append("<div class='article'>" + currentBlogs[i] + "</div>");
     }
 }
 
+//Takes the current blogs and puts them onto the previous blogs and then adds
+//the first 4 next blogs into the current blogs and calls writeValues
 function nextValues() {
-    if (blogs.length > 0) {
-         $(".content").empty();
     for (var i=0;i<4;i++) {
-        if (blogs.length > 0) {
-        $(".content").append("<div class='article'>" + blogs[0] + "</div>");
-        prevBlogs.push(blogs[0]);
-        blogs.shift();
-      }
+        if (nextBlogs.length > 0) {
+            currentBlogs.push(nextBlogs[0]);
+            nextBlogs.shift();
+        }
+        prevBlogs.unshift(currentBlogs[0]);
+        currentBlogs.shift();
+     
     }
-  }
+    writeValues();
 }
 
 function prevValues() {
-    if (prevBlogs.length > 0) {
-        $(".content").empty();
-        for (var i=0;i<4;i++) {
-            if (blogs.length > 0) {
-                  $(".content").append("<div class='article'>" + prevBlogs[0] + "</diV>");
-                blogs.push(prevBlogs[0]);
-                prevBlogs.shift();
-            }
-          
+    for (var i=0;i<4;i++) {
+        if (prevBlogs.length > 0) {
+            currentBlogs.push(prevBlogs[0]);
+            prevBlogs.shift();
         }
+        nextBlogs.unshift(currentBlogs[0]);
+        currentBlogs.shift();
+     
     }
+    writeValues();
 }
 
 function preload() {
     $("body").prepend("<h1>Sean Rayment</h1>");
     $.getJSON('blogs.json', {}, function(data) {
     $.each(data, function(key, value) {
-     $.each(value, function(key2, value2) {			 
-         currentBlogs.push(value2);
+     $.each(value, function(key2, value2) {
+         if (currentBlogs.length < 4) {
+            currentBlogs.push(value2);    
+         } else {
+             nextBlogs.push(value2);
+         }
       })
     })
   })

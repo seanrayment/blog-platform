@@ -1,6 +1,7 @@
 html {
     margin: 0;
     padding: 0;
+    background-color: #fafafa;
 }
 
 body {
@@ -13,6 +14,7 @@ h1 {
 }
 
 .article {
+    background-color: white;
 	display: block;
 	margin: 0 auto;
 	width: 60%;
@@ -27,6 +29,7 @@ h1 {
 }
 
 .article:hover {
+    cursor: pointer;
     box-shadow: 1px 3px 6px black;
     -webkit-transition: box-shadow 0.2s;
     transition: box-shadow 0.2s;
