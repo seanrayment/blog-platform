@@ -1,0 +1,28 @@
+{
+	"blog1" : {
+
+        "text" : "This is a blog about whatever I feel like writing about and it is actually the first post on this site believe it of not. I'm pretty excited about this post because its going on the site and all. This is really just some filler text so the first posts look pretty long and it will give me the chance to figure out if I need to keep the entire posts from displaying all at once. Maybe I could write a word counter or something that would break the text from all showing at once and then they have to be clicked on and from there they will open in a new page with the correct nav and social media icons but the article in full is shown."
+	},
+	
+	"blog2" : {
+		"text" : "This is another blog post thats going up on the site. it is actually the second post on the site but i guess technically it should be the second newest since the newest blogs really go up front but that's okay because this is just another test post."
+	},
+    
+    "blog3" : {
+      "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vehicula bibendum porta. Donec a nunc vitae dui condimentum porta faucibus eget justo. Mauris congue at neque eu accumsan. Quisque vulputate maximus sapien, nec dignissim est ornare in. Donec eu fermentum leo. Maecenas et justo pellentesque ipsum pulvinar facilisis id in massa. Nunc vel viverra eros. Nulla id sem in mi euismod facilisis. Etiam facilisis dictum tortor ut venenatis. Aliquam pellentesque viverra lorem vitae vehicula. Donec in odio pretium, mattis dolor at, feugiat quam. Mauris ut viverra justo, ac aliquam ligula. Vestibulum id tellus a magna suscipit aliquam id non tellus. Morbi mollis metus dolor, eget ultrices eros sollicitudin imperdiet."
+    },
+    
+    "blog4" : {
+        "text" : "Fusce sed iaculis augue. Vestibulum commodo augue ac lorem euismod semper. Suspendisse ornare risus id nulla egestas semper. Phasellus gravida cursus enim non efficitur. Vestibulum gravida libero at nulla faucibus, non placerat quam pulvinar. Sed feugiat mauris ligula, suscipit congue augue lobortis vel. Sed risus ante, porta vitae dapibus in, scelerisque in leo. Aenean dignissim tristique malesuada. Praesent et elit nec metus gravida pulvinar a vitae mauris. Sed sagittis enim et lectus dapibus malesuada."
+
+    },
+    
+    "blog5" : {
+        "text" : "ANother blog!!"
+    },
+    
+    "blog6" : {
+        "text" : "this blog will be on the second page"
+    }
+
+}
