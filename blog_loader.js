@@ -19,29 +19,40 @@ function writeValues() {
 //Takes the current blogs and puts them onto the previous blogs and then adds
 //the first 4 next blogs into the current blogs and calls writeValues
 function nextValues() {
-    for (var i=0;i<4;i++) {
-        if (nextBlogs.length > 0) {
-            currentBlogs.push(nextBlogs[0]);
-            nextBlogs.shift();
+    if (nextBlogs.length > 0) {
+        var countNum = currentBlogs.length;
+        for (var i=0;i<countNum;i++) {
+            prevBlogs.unshift(currentBlogs[currentBlogs.length - 1]);
+            currentBlogs.pop();
         }
-        prevBlogs.unshift(currentBlogs[0]);
-        currentBlogs.shift();
-     
+        for (var i=0;i<4;i++) {
+            if (nextBlogs.length > 0) {
+                currentBlogs.push(nextBlogs[0]);
+                nextBlogs.shift();
+            } 
+        }
+        writeValues();  
     }
-    writeValues();
+
 }
 
+//Takes the current blogs and puts them onto the next blogs and then adds 
+//the first 4 previous blogs and puts them into the current blogs
 function prevValues() {
-    for (var i=0;i<4;i++) {
-        if (prevBlogs.length > 0) {
-            currentBlogs.push(prevBlogs[0]);
-            prevBlogs.shift();
+    if (prevBlogs.length > 0) {
+        var countNum = currentBlogs.length;
+        for (var i=0;i<countNum;i++) {
+            nextBlogs.unshift(currentBlogs[currentBlogs.length - 1]);
+            currentBlogs.pop();
         }
-        nextBlogs.unshift(currentBlogs[0]);
-        currentBlogs.shift();
-     
+        for (var i=0;i<4;i++) {
+            if (prevBlogs.length > 0) {
+                currentBlogs.push(prevBlogs[0]);
+                prevBlogs.shift();
+            }
+        }
+        writeValues();
     }
-    writeValues();
 }
 
 function preload() {
