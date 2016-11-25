@@ -21,6 +21,7 @@ h1 {
     max-width: 500px;
 	margin-bottom: 5%;
     padding: 5%;
+    padding-top: 2%;;
     border-radius: 3px;
     border: 0.5px solid black;
     box-shadow: 1px 1px 0.5px black;
@@ -35,8 +36,16 @@ h1 {
     transition: box-shadow 0.2s;
 }
 
+.title {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 5%;
+    font-size: 18px;
+}
+
 #buttons {
-    border: 1px solid green;
     width: 100%;
     display: block;
     margin: 0 auto;
