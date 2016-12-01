@@ -1,66 +1,66 @@
 {
 	"blog15" : {
 
-        "text" : "This is a blog about whatever I feel like writing about and it is actually the first post on this site believe it of not. I'm pretty excited about this post because its going on the site and all. This is really just some filler text so the first posts look pretty long and it will give me the chance to figure out if I need to keep the entire posts from displaying all at once. Maybe I could write a word counter or something that would break the text from all showing at once and then they have to be clicked on and from there they will open in a new page with the correct nav and social media icons but the article in full is shown."
+        "text" : "Vestibulum eget elementum justo. Etiam eu dignissim nulla. Vestibulum augue arcu, mollis a aliquam a, pretium a dolor. Ut interdum arcu erat, vel ultricies est porttitor ac. Morbi commodo sapien et nisi sodales luctus. Integer at mattis urna, sed rutrum eros. Sed eu mi dolor. In venenatis eros eros, posuere euismod sem gravida in. Cras ac ligula vel elit interdum consectetur. Quisque finibus consectetur neque, in vulputate sem ornare sed. Suspendisse eros enim, dignissim ut cursus sit amet, pulvinar eget massa. Cras nec eleifend ligula. Suspendisse tristique nec sapien ut egestas. Quisque ut massa nec nisl egestas iaculis eget vel diam."
 	},
-	
+
 	"blog14" : {
-		"text" : "This is another blog post thats going up on the site. it is actually the second post on the site but i guess technically it should be the second newest since the newest blogs really go up front but that's okay because this is just another test post."
+		"text" : "Pellentesque posuere consectetur lectus et convallis. Vestibulum id mauris sem. Sed eu finibus quam. Nam blandit pellentesque odio, et lobortis arcu imperdiet sed. Aliquam lacinia eros ex, rhoncus venenatis purus maximus id. Aliquam erat volutpat. Praesent tortor nunc, viverra nec posuere sed, lacinia sed erat. Mauris vitae risus tempus, tincidunt dui molestie, cursus enim. Donec id consectetur libero. In hac habitasse platea dictumst. "
 	},
-    
+
     "blog13" : {
       "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vehicula bibendum porta. Donec a nunc vitae dui condimentum porta faucibus eget justo. Mauris congue at neque eu accumsan. Quisque vulputate maximus sapien, nec dignissim est ornare in. Donec eu fermentum leo. Maecenas et justo pellentesque ipsum pulvinar facilisis id in massa. Nunc vel viverra eros. Nulla id sem in mi euismod facilisis. Etiam facilisis dictum tortor ut venenatis. Aliquam pellentesque viverra lorem vitae vehicula. Donec in odio pretium, mattis dolor at, feugiat quam. Mauris ut viverra justo, ac aliquam ligula. Vestibulum id tellus a magna suscipit aliquam id non tellus. Morbi mollis metus dolor, eget ultrices eros sollicitudin imperdiet."
     },
-    
+
     "blog12" : {
         "text" : "Fusce sed iaculis augue. Vestibulum commodo augue ac lorem euismod semper. Suspendisse ornare risus id nulla egestas semper. Phasellus gravida cursus enim non efficitur. Vestibulum gravida libero at nulla faucibus, non placerat quam pulvinar. Sed feugiat mauris ligula, suscipit congue augue lobortis vel. Sed risus ante, porta vitae dapibus in, scelerisque in leo. Aenean dignissim tristique malesuada. Praesent et elit nec metus gravida pulvinar a vitae mauris. Sed sagittis enim et lectus dapibus malesuada."
 
     },
-    
+
     "blog11" : {
-        "text" : "ANother blog!!"
+        "text" : "Etiam et enim sagittis purus interdum efficitur vitae nec nibh. Cras id eros sit amet magna dictum lobortis vitae non sapien. Nam in sodales nibh, ac luctus tortor. In vitae lectus ut nibh ultricies porta gravida iaculis tellus. Vivamus aliquam mi sodales auctor euismod. Proin ex dolor, pellentesque ultricies viverra ullamcorper, lobortis a velit. Sed venenatis metus mattis, dapibus augue quis, vestibulum ante. In vel ante et mi tincidunt tempus."
     },
-    
+
     "blog10" : {
-        "text" : "I have so much to talk about so I'm writing yet another blog"
+        "text" : "Quisque eu luctus purus. Donec ac purus sit amet erat viverra dignissim. Donec quis elit felis. Fusce tincidunt turpis vel pretium suscipit. Sed a vehicula magna, quis semper dui. Pellentesque augue mauris, iaculis ac blandit at, tempor sit amet felis. Aenean et pretium tellus. Vestibulum consectetur purus sed justo posuere vehicula. Curabitur a sapien elit. Nam aliquam sit amet enim eget consequat. Maecenas non lacinia nunc. Nullam fermentum lacus vitae odio sodales rhoncus elementum et ante. Curabitur eget dolor nibh. Suspendisse potenti."
     },
-    
+
     "blog9" : {
-        "text" : "I really just cannot stop writing this is so much fun"
+        "text" : "Maecenas non dui sodales magna vulputate finibus. Nulla justo augue, volutpat sed condimentum eget, aliquam consequat tellus. Aliquam malesuada ex eget lobortis aliquet. Integer ullamcorper accumsan dolor id fringilla. Nunc mattis, sapien ut vehicula porttitor, felis leo iaculis dolor, ut tincidunt leo neque a odio. Sed porttitor lacus vel iaculis dictum. Pellentesque nec bibendum tortor. Etiam id molestie justo."
     },
-    
+
     "blog8" : {
-        "text" : "blogging is THE BEST"
+        "text" : "Suspendisse potenti. Nam a tempor nisi. Aenean porta sollicitudin rhoncus. Pellentesque varius bibendum eleifend. Donec eu laoreet nulla. Donec at felis varius, vehicula eros sit amet, rhoncus arcu. Praesent lacus mi, vehicula nec imperdiet quis, tempor vel velit. Praesent mattis sapien eros. Phasellus sapien tortor, fringilla sit amet consectetur in, imperdiet vel lacus. Sed luctus orci rutrum dui mattis, in maximus justo tincidunt. Aenean purus elit, maximus a leo vitae, auctor suscipit ligula."
     },
-    
+
     "blog7" : {
-        "text" : "kjnasdgjnosdgjsy"
+        "text" : "This post was stored in an array and added to the page when you clicked the next button!"
     },
-    
+
     "blog6" : {
-        "text" : "im worried all this filler text is going to make me look crazy"
+        "text" : "If you press the back button this text will be replaced by the previous post stored in the JSON file"
     },
-    
+
     "blog5" : {
-        "text" : "wow nice drop in this dank music im listening to"
+        "text" : "Cras at erat a turpis elementum rutrum vel sed quam. In vitae tortor lorem. Nulla vehicula mollis dolor, nec molestie lorem accumsan vel. Donec eget sem rhoncus, ultricies dolor eget, tincidunt est. Cras faucibus ornare tellus. Proin pulvinar tempor erat. Nulla facilisi. Vestibulum eu porta nisl, eget pulvinar est. Donec elit eros, tempus sit amet porta et, ultricies at velit. Etiam leo tellus, mollis non dapibus eget, egestas a ex. Suspendisse potenti. "
     },
-    
+
     "blog4" : {
-        "text" : "this is AWESOME"
+        "text" : "Nullam vitae augue nec nibh eleifend molestie ut scelerisque lacus. Donec non dolor non ligula vulputate varius. Curabitur rhoncus dignissim lectus, nec sagittis dui hendrerit eget. Nullam non risus sed elit tincidunt dictum. Suspendisse lectus diam, luctus id ultricies at, suscipit commodo lorem. Maecenas at quam justo. Phasellus nec malesuada massa, non finibus lectus. Duis nec mi lacus. Ut dignissim vitae mauris in finibus. Praesent ullamcorper nisi sit amet commodo vestibulum. Nam tincidunt nisi et lorem bibendum, eu pharetra erat semper. Etiam sit amet rhoncus dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;"
     },
-    
+
     "blog3" : {
-        "text" : "filller filler filler"
+        "text" : "Quisque pulvinar mauris vel ante finibus pretium. Maecenas imperdiet orci tortor, ac auctor ex euismod quis. Quisque ultricies turpis at tellus dignissim, quis varius leo finibus. Aliquam rutrum aliquam ex vel rhoncus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed enim diam, scelerisque ut tortor in, sodales scelerisque est. In aliquet porta ipsum, eget interdum lorem ullamcorper et. Etiam et arcu ut odio volutpat luctus. Praesent in dui suscipit, ultricies ante in, finibus metus. Nam massa justo, porttitor ut ultrices sed, semper ut risus."
     },
-    
+
     "blog2" : {
-        "text" : "cool stuff "
+        "text" : "Second to last post!"
     },
-    
+
     "blog1" : {
-        "text" : "fawegfwaefwaee"
+        "text" : "This is the final post, and it is still properly loaded even though it is not a multiple of 4!"
     }
-    
-    
+
+
 
 }
