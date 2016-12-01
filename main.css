@@ -21,6 +21,7 @@ h1 {
     max-width: 500px;
 	margin-bottom: 5%;
     padding: 5%;
+    padding-top: 2%;;
     border-radius: 3px;
     border: 0.5px solid black;
     box-shadow: 1px 1px 0.5px black;
@@ -33,6 +34,15 @@ h1 {
     box-shadow: 1px 3px 6px black;
     -webkit-transition: box-shadow 0.2s;
     transition: box-shadow 0.2s;
+}
+
+.title {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 5%;
+    font-size: 18px;
 }
 
 #buttons {
